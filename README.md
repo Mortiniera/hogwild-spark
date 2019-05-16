@@ -1,5 +1,11 @@
 # Hogwild spark
 
+## Authors 
+
+- Timoté Vaucher
+- Patrik Wagner
+- Thevie Mortiniera
+
 ## Setup
 We suppose one have a version of [Spark including Hadoop](https://spark.apache.org/downloads.html) , [Anaconda](https://www.anaconda.com/distribution/), Docker, Kubernetes (i.e. `kubectl`) installed on your computer
 
