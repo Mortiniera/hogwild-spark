@@ -1,0 +1,18 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: shell-pod
+spec:
+  volumes:
+    - name: shell-storage
+      persistentVolumeClaim:
+       claimName: cs449g13-scratch
+  containers:
+    - name: shell-container
+      image: alpine
+      volumeMounts:
+        - mountPath: /data
+          name: shell-storage
+      stdin: true
+      tty: true
+      command: ["/bin/sh"]

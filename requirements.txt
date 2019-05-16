@@ -1,0 +1,5 @@
+numpy
+scipy
+py-multibase
+wheel
+lightgbm
